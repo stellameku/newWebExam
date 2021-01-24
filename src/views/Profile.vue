@@ -18,7 +18,8 @@
                   />
                 </div>
                 <div class="name">
-                  <h3 class="title">Stella Metta Kurniawan</h3>
+                  <h3 class="title">Stella Metta Kurniawan </h3>
+                  <h4 > 林愛寶 AiBao-Lin </h4>
                   <h6>Designer</h6>
                   <md-button
                     href="javascript:void(0)"

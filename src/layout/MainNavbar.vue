@@ -24,7 +24,6 @@
         <div class="md-collapse">
           <div class="md-collapse-wrapper">
             <mobile-menu nav-mobile-section-start="false">
-              <!-- Here you can add your items from the section-start of your toolbar -->
             </mobile-menu>
             <md-list>
               <li class="md-list-item" >
@@ -45,17 +44,17 @@
                         <li>
                           <a href="#/">
                             <i class="material-icons">layers</i>
-                            <p>School's Website</p>
+                            <p>Home</p>
                           </a>
                         </li>
                         <li>
-                          <a
-                            href="https://demos.creative-tim.com/vue-material-kit/documentation/"
-                          >
-                            <i class="material-icons">content_paste</i>
-                            <p>Gallery</p>
+                          <a href="#/art">
+                            <i class="material-icons"> toys</i>
+                            <p>Art</p>
                           </a>
                         </li>
+                        
+                        
                       </ul>
                     </drop-down>
                   </div>
@@ -82,7 +81,7 @@
                       </md-button>
                       <ul class="dropdown-menu dropdown-with-icons">
                         <li>
-                          <a href="#/landing">
+                          <a href="#/gallery">
                             <i class="material-icons">view_day</i>
                             <p>Gallery</p>
                           </a>
@@ -96,7 +95,7 @@
                         <li>
                           <a href="#/profile">
                             <i class="material-icons">account_circle</i>
-                            <p>Home</p>
+                            <p>Profile</p>
                           </a>
                         </li>
                       </ul>

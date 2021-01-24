@@ -6,7 +6,7 @@
       :style="headerStyle"
     >
     <div class="brand">
-              <h1 style="color:white;">A bunch of photo I took</h1>
+              <h1 style="color:white;">A bunch of photos I took</h1>
               
             </div></parallax>
     

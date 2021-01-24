@@ -1,7 +1,8 @@
 import Vue from "vue";
 import Router from "vue-router";
 import Index from "./views/Index.vue";
-import Landing from "./views/Landing.vue";
+import Gallery from "./views/Gallery.vue";
+import Art from "./views/Art.vue";
 import Login from "./views/Login.vue";
 import Profile from "./views/Profile.vue";
 import MainNavbar from "./layout/MainNavbar.vue";
@@ -14,16 +15,24 @@ export default new Router({
     {
       path: "/",
       name: "index",
-      components: { default: Index, header: MainNavbar, footer: MainFooter },
+      components: { default: Index, header: MainNavbar},
       props: {
         header: { colorOnScroll: 400 },
-        footer: { backgroundColor: "black" }
       }
     },
     {
-      path: "/landing",
-      name: "landing",
-      components: { default: Landing, header: MainNavbar, footer: MainFooter },
+      path: "/art",
+      name: "art",
+      components: { default: Art, header: MainNavbar},
+      props: {
+        header: { colorOnScroll: 400 },
+      }
+    },
+   
+    {
+      path: "/gallery",
+      name: "gallery",
+      components: { default: Gallery, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: "black" }
@@ -34,7 +43,9 @@ export default new Router({
       name: "login",
       components: { default: Login, header: MainNavbar, footer: MainFooter },
       props: {
-        header: { colorOnScroll: 400 }
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" }
+
       }
     },
     {
@@ -45,7 +56,8 @@ export default new Router({
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: "black" }
       }
-    }
+    },
+    
   ],
   scrollBehavior: to => {
     if (to.hash) {
